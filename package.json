@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/parserate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Parse numeric rate values, ranges, and human-readable units.",
+  "bin": {
+    "parserate": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/parserate.git"
+  },
+  "homepage": "https://theworker02.github.io/parserate/",
+  "keywords": [
+    "parse",
+    "rate",
+    "number",
+    "cli",
+    "toolkit"
+  ]
+}
